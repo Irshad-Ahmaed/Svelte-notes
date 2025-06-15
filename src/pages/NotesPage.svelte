@@ -160,7 +160,7 @@
     <div class="grid md:grid-cols-2 gap-4">
       {#each notes as note}
         <div class="border rounded-lg p-4 shadow bg-white">
-          <h2 class="font-semibold text-lg">{note.title}</h2>
+          <h2 class="font-semibold text-gray-800 text-lg">{note.title}</h2>
           <p class="text-sm text-gray-600 mt-1">{note.content}</p>
           <p class="text-xs text-gray-400 mt-2">
             Created: {new Date(note.createdAt).toLocaleString()}
