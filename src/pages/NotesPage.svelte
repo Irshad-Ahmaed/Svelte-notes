@@ -135,13 +135,13 @@
       placeholder="Search title..."
       value={search}
       on:input={handleSearchInput}
-      class="p-2 border rounded-md w-full md:w-1/2"
+      class="p-2 border placeholder:text-gray-400 rounded-md w-full md:w-1/2"
     />
 
     <select bind:value={sort} class="p-2 border rounded-md">
-      <option value="">Sort by</option>
-      <option value="title">Title</option>
-      <option value="createdAt">Created At</option>
+      <option class="text-gray-400" value="">Sort by</option>
+      <option class="text-gray-400" value="title">Title</option>
+      <option class="text-gray-400" value="createdAt">Created At</option>
     </select>
   </div>
 
@@ -221,7 +221,7 @@
   <div class="flex justify-center mt-6 gap-2">
     <button
       on:click={() => changePage(page - 1)}
-      class="px-4 py-2 bg-gray-200 rounded-lg cursor-pointer hover:bg-gray-300 disabled:opacity-50"
+      class="px-4 py-2 bg-gray-200 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-300 disabled:opacity-50"
       disabled={page === 1}
     >
       Previous
@@ -231,7 +231,7 @@
 
     <button
       on:click={() => changePage(page + 1)}
-      class="px-4 py-2 bg-gray-200 rounded-lg cursor-pointer hover:bg-gray-300 disabled:opacity-50"
+      class="px-4 py-2 bg-gray-200 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-300 disabled:opacity-50"
       disabled={totalVisible < limit}
     >
       Next

@@ -25,7 +25,7 @@
   </div>
 
   <div
-    class={`${hide ? "hidden" : "block"} bg-white p-4 rounded-lg shadow mb-6`}
+    class={`${hide ? "hidden" : "block"} shadow-md border border-gray-200 p-4 rounded-lg mb-6`}
   >
     <h2 class={`text-xl font-bold mb-2 underline`}>Create a Note</h2>
     <form on:submit|preventDefault={handleSubmit} class={`space-y-3`}>
