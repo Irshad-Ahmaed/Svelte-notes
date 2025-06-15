@@ -17,7 +17,7 @@
 <div>
   <div class={`${hide ? "flex items-center justify-end" : "hidden"}`}>
     <button
-      class="text-xs bg-blue-500 text-white font-bold mb-2 py-1.5 px-2 rounded-lg cursor-pointer hover:bg-blue-400"
+      class="text-xs bg-blue-500 text-white font-bold mb-2 p-2 rounded-lg cursor-pointer hover:bg-blue-400"
       on:click={() => (hide = !hide)}
     >
       Create a Note
