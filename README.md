@@ -14,8 +14,8 @@ A simple, responsive note-taking web app built with **Svelte** and **TailwindCSS
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/svelte-notes-app.git
-cd svelte-notes-app
+git clone https://github.com/Irshad-Ahmaed/Svelte-notes
+cd Svelte-notes
 ```
 
 ### 2. RUN THE APPLICATION
