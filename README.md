@@ -18,7 +18,11 @@ git clone https://github.com/Irshad-Ahmaed/Svelte-notes
 cd Svelte-notes
 ```
 
-### 2. RUN THE APPLICATION
+### 2. Environment Variables
+```sh
+VITE_BASE_URL=https://xxxxxxxxxxxx.mockapi.io/api/v1
+```
+### 3. RUN THE APPLICATION
 ```sh
 npm install
 npm run dev
